@@ -66,7 +66,9 @@ print(f"Variance is : {var}")
 ```
 # Calculation:
 <img width="892" height="1376" alt="image" src="https://github.com/user-attachments/assets/48d9ace1-2bc7-4cda-8870-567d28277cb3" />
+
 <img width="936" height="1514" alt="image" src="https://github.com/user-attachments/assets/6bc501a1-6008-423c-b637-ca6396c90bf8" />
+
 <img width="907" height="1432" alt="image" src="https://github.com/user-attachments/assets/a3c1dc21-73f4-4e8d-b95c-648257153e1c" />
 
 # Output:
