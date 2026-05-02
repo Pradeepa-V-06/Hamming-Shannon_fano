@@ -6,6 +6,14 @@ Show that by drawing the tree diagram, and
 Calculate the average code word length, entropy, variance, redundancy, and efficiency.
 # Tools Required:
 Google Colab
+# Theory:
+Huffman Tree
+
+Huffman tree is a binary tree used for lossless data compression by combining symbols with the lowest probabilities repeatedly. It generates optimal prefix codes with minimum average code length.
+
+Shannon-Fano Tree
+
+Shannon-Fano tree is a binary tree used for source coding by dividing symbols into groups with nearly equal probabilities. It produces prefix codes but is less efficient than Huffman coding.
 # Program:
 ```
 import numpy as np
@@ -63,8 +71,11 @@ print(f"Variance is : {var}")
 <img width="892" height="1376" alt="image" src="https://github.com/user-attachments/assets/48d9ace1-2bc7-4cda-8870-567d28277cb3" />
 <img width="936" height="1514" alt="image" src="https://github.com/user-attachments/assets/6bc501a1-6008-423c-b637-ca6396c90bf8" />
 <img width="907" height="1432" alt="image" src="https://github.com/user-attachments/assets/a3c1dc21-73f4-4e8d-b95c-648257153e1c" />
-# Output
+
+# Output:
+
 <img width="591" height="445" alt="image" src="https://github.com/user-attachments/assets/5871c655-ffa1-41b3-94e4-a9ad9b8122d0" />
  
 # Results:
+Thus, the Source Coding Theorem was successfully simulated and verified using Huffman and Shannon-Fano coding techniques. Huffman coding produced better compression efficiency with a lower average code length compared to Shannon-Fano coding.
 
